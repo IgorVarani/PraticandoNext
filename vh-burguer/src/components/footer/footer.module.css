@@ -1,0 +1,28 @@
+#footer{
+    height: 18vh;
+    background-color: var(--vinho);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo_footer{
+    width: 250px;
+}
+
+#nav_footer{
+    display: flex;
+    gap: 25px;
+}
+
+#linha_direitos{
+    background-color: var(--laranja-destaque);
+    height: 1px;
+    border: none;
+}

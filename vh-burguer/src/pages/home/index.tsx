@@ -1,11 +1,20 @@
 //? ESTRUTURA PADRÃO
 
+import Footer from "@/components/footer/footer";
+import Header from "@/components/header/header";
 import { Fragment } from "react/jsx-runtime"
 
 const Home = () => {
     return (
         <Fragment>
-            <p>AAA</p>
+            <Header/>
+            <main>
+                <section></section>
+                <section></section>
+                <section></section>
+                <section></section>
+            </main>
+            <Footer/>
         </Fragment>
     )
 }
