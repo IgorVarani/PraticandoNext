@@ -11,7 +11,7 @@ const fredoka = Fredoka({
 export default function App({ Component, pageProps }: AppProps) {
   return (
   <main className={fredoka.variable}>
-  <Component {...pageProps} />;
+  <Component {...pageProps} />
   </main>
   )
 }

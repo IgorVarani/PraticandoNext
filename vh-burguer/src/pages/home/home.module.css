@@ -1,0 +1,116 @@
+/*?=================*/
+/*?     BANNER      */
+/*?=================*/
+
+#main{
+    background-color: var(--fundo-claro);
+}
+
+#banner{
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+
+#banner h1{
+    color: var(--laranja-destaque);
+    font-size: 65px;
+    font-weight: 500;
+}
+
+#banner img{
+    height: 425px;
+}
+
+#botoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#btn_chamar{
+    background-color: var(--laranja-destaque);
+    color: var(--fonte-escura);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px;
+    width: 400px;
+    margin-right: 5%;
+    white-space: nowrap;
+}
+
+#btn_ver{
+    background-color: var(--vinho);
+    color: var(--laranja-destaque);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px;
+    width: 400px;
+    margin-left: 5%;
+    white-space: nowrap;
+}
+
+/*?====================*/
+/*?     DESTAQUES      */
+/*?===================*/
+
+#destaques{
+    background-color: var(--fundo-escuro);
+    height: 75vh;
+    display: flex;
+    flex-direction: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#container_esquerda article, #container_direita article{
+    border-radius: 20px;
+    width: 488px;
+}
+
+#mais_pedidos{
+    background-image: url("/imgs/Mais_Pedidos.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+#muito_bacon{
+    background-image: url("/imgs/Muito_Bacon.png");
+}
+
+#super_combos{
+    background-image: url("/imgs/Super_Combos.png");
+}
+
+#muito_bacon, #super_combos{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 240px;
+}
+
+.texto_article{
+    color: white;
+    font-size: 25px;
+}
+
+.h2_article{
+    color: white;
+    font-size: 25px;
+}
+
+#container_direita{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
